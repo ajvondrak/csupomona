@@ -1,0 +1,6 @@
+1 2 3
+peek
+dequeue peek
+dequeue
+push 4
+dequeue dequeue dequeue

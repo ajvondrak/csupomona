@@ -1,0 +1,3080 @@
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 1, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+returnValue = 1
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 1, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+returnValue = 1
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 2, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 2, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 2, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 5
+CALL FRAME<n = 2, r = 1, stmt = 3>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 6
+returnValue = 2
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 2, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 2, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 1, r = 2, stmt = 0>
+CALL FRAME<n = 2, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 2, r = 1, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 5
+returnValue = 2
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 3, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 3, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 7
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 8
+CALL FRAME<n = 3, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 9
+CALL FRAME<n = 3, r = 2, stmt = 3>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 10
+returnValue = 6
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 3, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 3, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 2, r = 3, stmt = 0>
+CALL FRAME<n = 3, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 2, r = 3, stmt = 1>
+CALL FRAME<n = 3, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 1, r = 6, stmt = 0>
+CALL FRAME<n = 2, r = 3, stmt = 2>
+CALL FRAME<n = 3, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 2, r = 3, stmt = 2>
+CALL FRAME<n = 3, r = 1, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 7
+CALL FRAME<n = 3, r = 1, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 8
+returnValue = 6
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 4, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 4, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 9
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 10
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 11
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 12
+CALL FRAME<n = 4, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 13
+CALL FRAME<n = 4, r = 6, stmt = 3>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 14
+returnValue = 24
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 4, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 4, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 3, r = 4, stmt = 0>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 3, r = 4, stmt = 1>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 2, r = 12, stmt = 0>
+CALL FRAME<n = 3, r = 4, stmt = 2>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 2, r = 12, stmt = 1>
+CALL FRAME<n = 3, r = 4, stmt = 2>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 1, r = 24, stmt = 0>
+CALL FRAME<n = 2, r = 12, stmt = 2>
+CALL FRAME<n = 3, r = 4, stmt = 2>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 2, r = 12, stmt = 2>
+CALL FRAME<n = 3, r = 4, stmt = 2>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 9
+CALL FRAME<n = 3, r = 4, stmt = 2>
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 10
+CALL FRAME<n = 4, r = 1, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 11
+returnValue = 24
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 5, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 5, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 4, r = 0, stmt = 0>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 4, r = 0, stmt = 1>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 11
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 12
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 13
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 14
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 15
+CALL FRAME<n = 4, r = 6, stmt = 3>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 16
+CALL FRAME<n = 5, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+CALL FRAME<n = 5, r = 24, stmt = 3>
+returnValue = 24
+
+EXECUTING STATEMENT 3
+
+Iteration 18
+returnValue = 120
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 5, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 5, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 4, r = 5, stmt = 0>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 4, r = 5, stmt = 1>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 3, r = 20, stmt = 0>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 3, r = 20, stmt = 1>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 2, r = 60, stmt = 0>
+CALL FRAME<n = 3, r = 20, stmt = 2>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 2, r = 60, stmt = 1>
+CALL FRAME<n = 3, r = 20, stmt = 2>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 1, r = 120, stmt = 0>
+CALL FRAME<n = 2, r = 60, stmt = 2>
+CALL FRAME<n = 3, r = 20, stmt = 2>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 2, r = 60, stmt = 2>
+CALL FRAME<n = 3, r = 20, stmt = 2>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 11
+CALL FRAME<n = 3, r = 20, stmt = 2>
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 12
+CALL FRAME<n = 4, r = 5, stmt = 2>
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 13
+CALL FRAME<n = 5, r = 1, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 14
+returnValue = 120
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 6, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 6, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 5, r = 0, stmt = 0>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 5, r = 0, stmt = 1>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 4, r = 0, stmt = 0>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 4, r = 0, stmt = 1>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 13
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 14
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 15
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 16
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+CALL FRAME<n = 4, r = 6, stmt = 3>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 18
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 5, r = 24, stmt = 3>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 3
+
+Iteration 20
+CALL FRAME<n = 6, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 6, r = 120, stmt = 3>
+returnValue = 120
+
+EXECUTING STATEMENT 3
+
+Iteration 22
+returnValue = 720
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 6, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 6, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 5, r = 6, stmt = 0>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 5, r = 6, stmt = 1>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 4, r = 30, stmt = 0>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 4, r = 30, stmt = 1>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 3, r = 120, stmt = 0>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 3, r = 120, stmt = 1>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 2, r = 360, stmt = 0>
+CALL FRAME<n = 3, r = 120, stmt = 2>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 2, r = 360, stmt = 1>
+CALL FRAME<n = 3, r = 120, stmt = 2>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 1, r = 720, stmt = 0>
+CALL FRAME<n = 2, r = 360, stmt = 2>
+CALL FRAME<n = 3, r = 120, stmt = 2>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 2, r = 360, stmt = 2>
+CALL FRAME<n = 3, r = 120, stmt = 2>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 13
+CALL FRAME<n = 3, r = 120, stmt = 2>
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 14
+CALL FRAME<n = 4, r = 30, stmt = 2>
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 15
+CALL FRAME<n = 5, r = 6, stmt = 2>
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 16
+CALL FRAME<n = 6, r = 1, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+returnValue = 720
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 7, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 7, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 6, r = 0, stmt = 0>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 6, r = 0, stmt = 1>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 5, r = 0, stmt = 0>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 5, r = 0, stmt = 1>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 4, r = 0, stmt = 0>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 4, r = 0, stmt = 1>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 15
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 16
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 18
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 4, r = 6, stmt = 3>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 20
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 5, r = 24, stmt = 3>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 3
+
+Iteration 22
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+CALL FRAME<n = 6, r = 120, stmt = 3>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 3
+
+Iteration 24
+CALL FRAME<n = 7, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 25
+CALL FRAME<n = 7, r = 720, stmt = 3>
+returnValue = 720
+
+EXECUTING STATEMENT 3
+
+Iteration 26
+returnValue = 5040
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 7, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 7, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 6, r = 7, stmt = 0>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 6, r = 7, stmt = 1>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 5, r = 42, stmt = 0>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 5, r = 42, stmt = 1>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 4, r = 210, stmt = 0>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 4, r = 210, stmt = 1>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 3, r = 840, stmt = 0>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 3, r = 840, stmt = 1>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 2, r = 2520, stmt = 0>
+CALL FRAME<n = 3, r = 840, stmt = 2>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 2, r = 2520, stmt = 1>
+CALL FRAME<n = 3, r = 840, stmt = 2>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 1, r = 5040, stmt = 0>
+CALL FRAME<n = 2, r = 2520, stmt = 2>
+CALL FRAME<n = 3, r = 840, stmt = 2>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 2, r = 2520, stmt = 2>
+CALL FRAME<n = 3, r = 840, stmt = 2>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 15
+CALL FRAME<n = 3, r = 840, stmt = 2>
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 16
+CALL FRAME<n = 4, r = 210, stmt = 2>
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+CALL FRAME<n = 5, r = 42, stmt = 2>
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 18
+CALL FRAME<n = 6, r = 7, stmt = 2>
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 7, r = 1, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 20
+returnValue = 5040
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 8, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 8, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 7, r = 0, stmt = 0>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 7, r = 0, stmt = 1>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 6, r = 0, stmt = 0>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 6, r = 0, stmt = 1>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 5, r = 0, stmt = 0>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 5, r = 0, stmt = 1>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 4, r = 0, stmt = 0>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 4, r = 0, stmt = 1>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 15
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 16
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 18
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 20
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 4, r = 6, stmt = 3>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 22
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+CALL FRAME<n = 5, r = 24, stmt = 3>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 3
+
+Iteration 24
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 25
+CALL FRAME<n = 6, r = 120, stmt = 3>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 3
+
+Iteration 26
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 27
+CALL FRAME<n = 7, r = 720, stmt = 3>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 3
+
+Iteration 28
+CALL FRAME<n = 8, r = 0, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 29
+CALL FRAME<n = 8, r = 5040, stmt = 3>
+returnValue = 5040
+
+EXECUTING STATEMENT 3
+
+Iteration 30
+returnValue = 40320
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 8, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 8, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 7, r = 8, stmt = 0>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 7, r = 8, stmt = 1>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 6, r = 56, stmt = 0>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 6, r = 56, stmt = 1>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 5, r = 336, stmt = 0>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 5, r = 336, stmt = 1>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 4, r = 1680, stmt = 0>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 4, r = 1680, stmt = 1>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 3, r = 6720, stmt = 0>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 3, r = 6720, stmt = 1>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 2, r = 20160, stmt = 0>
+CALL FRAME<n = 3, r = 6720, stmt = 2>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 2, r = 20160, stmt = 1>
+CALL FRAME<n = 3, r = 6720, stmt = 2>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 15
+CALL FRAME<n = 1, r = 40320, stmt = 0>
+CALL FRAME<n = 2, r = 20160, stmt = 2>
+CALL FRAME<n = 3, r = 6720, stmt = 2>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 16
+CALL FRAME<n = 2, r = 20160, stmt = 2>
+CALL FRAME<n = 3, r = 6720, stmt = 2>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 17
+CALL FRAME<n = 3, r = 6720, stmt = 2>
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 18
+CALL FRAME<n = 4, r = 1680, stmt = 2>
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 5, r = 336, stmt = 2>
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 20
+CALL FRAME<n = 6, r = 56, stmt = 2>
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 7, r = 8, stmt = 2>
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 22
+CALL FRAME<n = 8, r = 1, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+returnValue = 40320
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 9, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 9, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 8, r = 0, stmt = 0>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 8, r = 0, stmt = 1>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 7, r = 0, stmt = 0>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 7, r = 0, stmt = 1>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 6, r = 0, stmt = 0>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 6, r = 0, stmt = 1>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 5, r = 0, stmt = 0>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 5, r = 0, stmt = 1>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 4, r = 0, stmt = 0>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 4, r = 0, stmt = 1>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 15
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 16
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 17
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 18
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 20
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 22
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+CALL FRAME<n = 4, r = 6, stmt = 3>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 24
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 25
+CALL FRAME<n = 5, r = 24, stmt = 3>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 3
+
+Iteration 26
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 27
+CALL FRAME<n = 6, r = 120, stmt = 3>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 3
+
+Iteration 28
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 29
+CALL FRAME<n = 7, r = 720, stmt = 3>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 3
+
+Iteration 30
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 31
+CALL FRAME<n = 8, r = 5040, stmt = 3>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 3
+
+Iteration 32
+CALL FRAME<n = 9, r = 0, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 33
+CALL FRAME<n = 9, r = 40320, stmt = 3>
+returnValue = 40320
+
+EXECUTING STATEMENT 3
+
+Iteration 34
+returnValue = 362880
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 9, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 9, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 8, r = 9, stmt = 0>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 8, r = 9, stmt = 1>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 7, r = 72, stmt = 0>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 7, r = 72, stmt = 1>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 6, r = 504, stmt = 0>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 6, r = 504, stmt = 1>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 5, r = 3024, stmt = 0>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 5, r = 3024, stmt = 1>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 4, r = 15120, stmt = 0>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 4, r = 15120, stmt = 1>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 3, r = 60480, stmt = 0>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 3, r = 60480, stmt = 1>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 15
+CALL FRAME<n = 2, r = 181440, stmt = 0>
+CALL FRAME<n = 3, r = 60480, stmt = 2>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 16
+CALL FRAME<n = 2, r = 181440, stmt = 1>
+CALL FRAME<n = 3, r = 60480, stmt = 2>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 17
+CALL FRAME<n = 1, r = 362880, stmt = 0>
+CALL FRAME<n = 2, r = 181440, stmt = 2>
+CALL FRAME<n = 3, r = 60480, stmt = 2>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 18
+CALL FRAME<n = 2, r = 181440, stmt = 2>
+CALL FRAME<n = 3, r = 60480, stmt = 2>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 19
+CALL FRAME<n = 3, r = 60480, stmt = 2>
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 20
+CALL FRAME<n = 4, r = 15120, stmt = 2>
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 5, r = 3024, stmt = 2>
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 22
+CALL FRAME<n = 6, r = 504, stmt = 2>
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+CALL FRAME<n = 7, r = 72, stmt = 2>
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 24
+CALL FRAME<n = 8, r = 9, stmt = 2>
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 25
+CALL FRAME<n = 9, r = 1, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 26
+returnValue = 362880
+
+Results matched.
+
+--- RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 10, r = 0, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 10, r = 0, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 9, r = 0, stmt = 0>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 9, r = 0, stmt = 1>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 8, r = 0, stmt = 0>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 8, r = 0, stmt = 1>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 7, r = 0, stmt = 0>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 7, r = 0, stmt = 1>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 6, r = 0, stmt = 0>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 6, r = 0, stmt = 1>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 5, r = 0, stmt = 0>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 5, r = 0, stmt = 1>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 4, r = 0, stmt = 0>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 4, r = 0, stmt = 1>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 15
+CALL FRAME<n = 3, r = 0, stmt = 0>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 16
+CALL FRAME<n = 3, r = 0, stmt = 1>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 17
+CALL FRAME<n = 2, r = 0, stmt = 0>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 18
+CALL FRAME<n = 2, r = 0, stmt = 1>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 19
+CALL FRAME<n = 1, r = 0, stmt = 0>
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 20
+CALL FRAME<n = 2, r = 0, stmt = 2>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 2, r = 1, stmt = 3>
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 1
+
+EXECUTING STATEMENT 3
+
+Iteration 22
+CALL FRAME<n = 3, r = 0, stmt = 2>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+CALL FRAME<n = 3, r = 2, stmt = 3>
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 2
+
+EXECUTING STATEMENT 3
+
+Iteration 24
+CALL FRAME<n = 4, r = 0, stmt = 2>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 2
+
+Iteration 25
+CALL FRAME<n = 4, r = 6, stmt = 3>
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 6
+
+EXECUTING STATEMENT 3
+
+Iteration 26
+CALL FRAME<n = 5, r = 0, stmt = 2>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 2
+
+Iteration 27
+CALL FRAME<n = 5, r = 24, stmt = 3>
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 24
+
+EXECUTING STATEMENT 3
+
+Iteration 28
+CALL FRAME<n = 6, r = 0, stmt = 2>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 2
+
+Iteration 29
+CALL FRAME<n = 6, r = 120, stmt = 3>
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 120
+
+EXECUTING STATEMENT 3
+
+Iteration 30
+CALL FRAME<n = 7, r = 0, stmt = 2>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 2
+
+Iteration 31
+CALL FRAME<n = 7, r = 720, stmt = 3>
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 720
+
+EXECUTING STATEMENT 3
+
+Iteration 32
+CALL FRAME<n = 8, r = 0, stmt = 2>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 2
+
+Iteration 33
+CALL FRAME<n = 8, r = 5040, stmt = 3>
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 5040
+
+EXECUTING STATEMENT 3
+
+Iteration 34
+CALL FRAME<n = 9, r = 0, stmt = 2>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 2
+
+Iteration 35
+CALL FRAME<n = 9, r = 40320, stmt = 3>
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 40320
+
+EXECUTING STATEMENT 3
+
+Iteration 36
+CALL FRAME<n = 10, r = 0, stmt = 2>
+returnValue = 362880
+
+EXECUTING STATEMENT 2
+
+Iteration 37
+CALL FRAME<n = 10, r = 362880, stmt = 3>
+returnValue = 362880
+
+EXECUTING STATEMENT 3
+
+Iteration 38
+returnValue = 3628800
+
+Results matched.
+
+--- TAIL-RECURSIVE SIMULATION
+
+Iteration 1
+CALL FRAME<n = 10, r = 1, stmt = 0>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 2
+CALL FRAME<n = 10, r = 1, stmt = 1>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 3
+CALL FRAME<n = 9, r = 10, stmt = 0>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 4
+CALL FRAME<n = 9, r = 10, stmt = 1>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 5
+CALL FRAME<n = 8, r = 90, stmt = 0>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 6
+CALL FRAME<n = 8, r = 90, stmt = 1>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 7
+CALL FRAME<n = 7, r = 720, stmt = 0>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 8
+CALL FRAME<n = 7, r = 720, stmt = 1>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 9
+CALL FRAME<n = 6, r = 5040, stmt = 0>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 10
+CALL FRAME<n = 6, r = 5040, stmt = 1>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 11
+CALL FRAME<n = 5, r = 30240, stmt = 0>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 12
+CALL FRAME<n = 5, r = 30240, stmt = 1>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 13
+CALL FRAME<n = 4, r = 151200, stmt = 0>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 14
+CALL FRAME<n = 4, r = 151200, stmt = 1>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 15
+CALL FRAME<n = 3, r = 604800, stmt = 0>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 16
+CALL FRAME<n = 3, r = 604800, stmt = 1>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 17
+CALL FRAME<n = 2, r = 1814400, stmt = 0>
+CALL FRAME<n = 3, r = 604800, stmt = 2>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 18
+CALL FRAME<n = 2, r = 1814400, stmt = 1>
+CALL FRAME<n = 3, r = 604800, stmt = 2>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 1
+
+Iteration 19
+CALL FRAME<n = 1, r = 3628800, stmt = 0>
+CALL FRAME<n = 2, r = 1814400, stmt = 2>
+CALL FRAME<n = 3, r = 604800, stmt = 2>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 0
+
+EXECUTING STATEMENT 0
+
+Iteration 20
+CALL FRAME<n = 2, r = 1814400, stmt = 2>
+CALL FRAME<n = 3, r = 604800, stmt = 2>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 21
+CALL FRAME<n = 3, r = 604800, stmt = 2>
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 22
+CALL FRAME<n = 4, r = 151200, stmt = 2>
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 23
+CALL FRAME<n = 5, r = 30240, stmt = 2>
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 24
+CALL FRAME<n = 6, r = 5040, stmt = 2>
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 25
+CALL FRAME<n = 7, r = 720, stmt = 2>
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 26
+CALL FRAME<n = 8, r = 90, stmt = 2>
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 27
+CALL FRAME<n = 9, r = 10, stmt = 2>
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 28
+CALL FRAME<n = 10, r = 1, stmt = 2>
+returnValue = 3628800
+
+EXECUTING STATEMENT 2
+
+Iteration 29
+returnValue = 3628800
+
+Results matched.
+
